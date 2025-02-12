@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Aku Anak Foren
+type: StaticAttachment
+author: Dimas Maulana
+description: |-
+  Aku mencoba untuk mengirimkan pesan rahasia ke google :)
+value: 1000
+
+flags:
+  - TCP1P{networking_forensic_is_always_fun_right_hehe}
+
+provide: capture.pcap
+visible: true

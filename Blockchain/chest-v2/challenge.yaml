@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Chest V2
+type: StaticAttachment
+author: 404Gh0st
+description: |-
+  Ancient carvings whispered forgotten rituals as Aaron delved deeper into the ruined temple. Crumbling corridors echoed his footsteps, the air heavy with the weight of ages. Navigating treacherous pitfalls, he reached a flickering torchlit altar. Upon it, a chest, bound by shimmering glyphs - the rumored treasure, locked by an ancient spell. The key lay hidden somewhere within... but where?
+
+  Connect: http://{{ .host }}:25195
+
+flags:
+  - TCP1P{never_use_solidity_under_0.8}
+
+provide: ./dist
+
+scripts:
+  start: cd ./src/Chest-v2 && docker compose -p {{.slug}} up --build -d
+  stop: cd ./src/Chest-v2 && docker compose -p {{.slug}} down --volumes
+
+visible: true
+value: 1000

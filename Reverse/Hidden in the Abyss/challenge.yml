@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: "Hidden in the Abyss"
+author: "aimardcr"
+category: "Reverse Engineering"
+description: |
+    Come and find out what's hidden!
+value: 1000
+type: StaticAttachment
+
+flags:
+    - TCF2024{N0t_S0_H1dd3n_Aft3r_4ll}
+
+provide: ./main

@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Babiest Rev
+type: StaticAttachment
+author: aseng
+description: |-
+  What is cross-reference anyway?
+
+flags:
+  - TCP1P{g0_w1th_the_fl0w!}
+value: 1000
+
+provide: ./ezgo.exe
+visible: true

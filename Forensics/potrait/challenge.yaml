@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Portrait
+type: StaticAttachment
+author: nagi
+description: |-
+  A man had typed a bunch of characters to create a peculiar portrait. Legend said that this portrait may hide a secret beneath it. Can you unveil the secret of the portrait?
+
+flags:
+  - TCP1P{und3rrated_pi3ce_of_4rt_m4de_by_w1reless_keyboard}
+
+provide: ./releases/portrait.tar.xz
+visible: true
+value: 1000

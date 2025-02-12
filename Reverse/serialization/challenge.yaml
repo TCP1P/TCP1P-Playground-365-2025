@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Serialization
+type: StaticAttachment
+author: aimardcr
+description: |-
+  Homemade serial number generator! I made the program generates serial number very long so that it's safe! or is it safe?
+
+flags:
+  - TCF2024{S0lv1ng_CPP_B1n_Ch4ll_M4k3s_Y0u_4_M4D_RE-Master}
+value: 1000
+
+provide: ./dist
+visible: true

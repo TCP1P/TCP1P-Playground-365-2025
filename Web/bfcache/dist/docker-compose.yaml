@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  bot:
+    build: bot
+    restart: always
+    environment:
+      APPNAME: Admin
+      APPURL: http://simpleapp:3000/
+      APPURLREGEX: ^http://.*$
+      APPFLAG: fake{flag}
+      APPLIMIT: 2
+      APPLIMITTIME: 60
+      USE_PROXY: 1
+      DISPLAY: ${DISPLAY}
+    networks:
+      - internal
+    ports:
+      - 4354:3000
+    # uncoment this if you need to run the bot in GUI mode
+    # volumes:
+      # - /tmp/.X11-unix:/tmp/.X11-unix
+  simpleapp:
+    build: ./simple-app
+    restart: always
+    networks:
+      - internal
+    ports:
+      - 35029:3000
+
+networks:
+  internal:

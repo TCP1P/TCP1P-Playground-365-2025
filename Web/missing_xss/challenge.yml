@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../challenge.schema.yaml
+name: "Missing XSS"
+author: "Dimas Maulana"
+category: Web
+description: |
+  is it exploitable?
+
+  Connect: http://{{ .host }}:49255
+
+value: 500
+type: StaticAttachment
+flags:
+- TCP1P{xss_via_encoding_differentials_is_aw3som3_r1ght?}
+provide: ./dist
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

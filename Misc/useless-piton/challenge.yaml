@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Useless Piton
+type: StaticAttachment
+author: Dimas Maulana
+description: |-
+  Python but useless!
+
+  Connection: nc {{ .host }} 25776
+
+flags:
+  - INTECHFEST{8c8febf8594793a146a8f035dfab380c78569ab900586cfb}
+value: 1000
+provide: ./app.py
+visible: false
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

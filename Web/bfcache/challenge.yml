@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Back-Forward Cache
+author: Dimas
+type: StaticAttachment
+description: |-
+    Iam preety sure isn't exploitable!
+
+    Bot: http://{{ .host }}:4354
+
+    Web: http://{{ .host }}:35029
+
+flags:
+  - TCP1P{bfcache_is_interesting_in_browser_especially_in_bypassing_header_check}
+value: 1000
+
+provide: ./dist
+
+scripts:
+  start: docker compose up --build --detach
+  stop: docker compose down --volumes

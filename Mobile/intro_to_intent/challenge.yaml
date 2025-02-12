@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Intro To Intent
+type: StaticAttachment
+author: Dimas
+description: |-
+  Habis kehilangan kunci motor coy, nda ada kerjaan jadi iseng aja buat challenge mobile :')
+
+  Btw ternyata nda sengaja dibawa temenku ...
+
+  Note: This challenge use https://github.com/TCP1P/Mobile-POC-Tester to test your POC
+
+  Connect: http://{{ .host }}:5000
+
+flags:
+  - TCP1P{1nt3nt10n__}
+value: 1000
+provide: ./dist/
+
+# scripts:
+#   start: |-
+#     CHALLENGE_NAME="intro_to_intent"
+#     cp -r "../../Mobile/$CHALLENGE_NAME" "../../Mobile-POC-Tester/src/challenges/$CHALLENGE_NAME"
+#   stop: |-
+#     CHALLENGE_NAME="intro_to_intent"
+#     rm -rf "../../Mobile-POC-Tester/src/challenges/$CHALLENGE_NAME"

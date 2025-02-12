@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml# other tools to install and deploy your challenge.
+name: "Twice"
+author: "ZafiN"
+category: Cryptography
+description:
+    twice > once ?
+value: 1000
+type: StaticAttachment
+flags:
+    - TCP1P{nonce_reuse_attack_on_elgamal_encryption_goes_brr}
+
+provide: ./dist/
+visible: false

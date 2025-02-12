@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+author: beluga
+type: StaticAttachment
+description: |-
+  This challenge require you to exploit simple XPath Injection and retrieve flag inside of an XML Document.
+
+  Connect: http://{{ .host }}:33121
+flags:
+  - TCP1P{aku_bisa_simple_xpath_injection_yey!}
+name: ExPath1
+value: 1000
+
+provide: ./chall.zip
+visible: true
+scripts:
+  start: (cd ./src/ExPath1 && docker compose -p {{.slug}} up --build --detach)
+  stop: (cd ./src/ExPath1 && docker compose -p {{.slug}} down --volumes)

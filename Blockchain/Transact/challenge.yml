@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: "Transact"
+author: "dimas"
+description: |
+    My first blockchain challenge (T-T)
+
+    Connection: http://{{ .host }}:5301/
+
+value: 1000
+type: StaticAttachment
+flags:
+    - TCP1P{yay_you_just_make_a_transaction_on_blockchain_smartcontract}
+
+provide: forPlayer/outback.sol
+scripts:
+  start: docker compose -p {{.slug}} up --build -d
+  stop: docker compose -p {{.slug}} down --volumes

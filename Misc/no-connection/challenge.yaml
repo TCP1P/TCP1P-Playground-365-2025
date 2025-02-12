@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: No Connection
+type: StaticAttachment
+author: Dimas Maulana
+description: |-
+  Can you connect to mongodb and get the flag?
+
+  Connection: nc {{ .host }} 7716
+
+flags:
+  - INTECHFEST{FTPPasvRedirect}
+value: 1000
+provide: ./dist
+visible: false
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Micro Rev
+type: StaticAttachment
+author: Dimas Maulana
+description: |-
+  First C reverse engineering challenge :P
+
+flags:
+  - TCP1P{micro_challenge_for_c_reverser_XP}
+value: 1000
+
+provide: ./dist
+visible: true

@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: "Key Checker"
+author: "aimardcr"
+category: "Reverse Engineering"
+description: |
+    Flag Checkers are too common, what about Key Checker?
+value: 1000
+type: StaticAttachment
+flags:
+    - TCF2024{Gr3at_St4rt1ng_P01nt}
+provide: ./main

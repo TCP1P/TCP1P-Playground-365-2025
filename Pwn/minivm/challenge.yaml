@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: minivm
+type: StaticAttachment
+author: rui
+description: |-
+  Author malas buat chall pwn, yaudah pake punya orang aja https://github.com/FastVM/minivm
+
+  Note: OS docker pake ubuntu:jammy (22.04)
+
+  Connect: nc {{ .host }} 31337
+
+flags:
+  - TCF2024{gratz_you_pwned_my_first_0day_pwn_chall}
+value: 1000
+provide: ./peserta
+scripts:
+  start: (docker compose up --build -d)
+  stop: (docker compose down)
+
+visible: true

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: ret2win 4
+type: StaticAttachment
+author: zran
+description: |-
+  Mitigasi lain untuk menyusahkan penyerang dalam mengubah alur program adalah PIE. PIE adalah singkatan dari Position Independent Executable yang mengakibatkan program kita untuk di-load ke dalam memori dengan offset random. Jadi walaupun ada buffer overflow, penyerang tidak tau alamat dari fungsi/instruksi yang ingin dijalankan. Tapi, kalau kita bisa dapetin salah satu alamat dari program saat dijalankan, alamat dari fungsi/instruksi yang ingin dijalankan tinggal dihitung dari selisihnya dengan alamat yang udah didapetin tadi.
+
+  Connect: nc {{ .host }} 19003
+
+flags:
+  - TCP1P{leak_satu_alamat_semua_alamat_ketahuan}
+
+value: 1000
+provide: ./dist/
+scripts:
+  start: (docker compose up --build -d)
+  stop: (docker compose down)
+
+visible: true

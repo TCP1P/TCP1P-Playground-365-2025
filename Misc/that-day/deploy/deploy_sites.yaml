@@ -1,0 +1,242 @@
+# Create Namespace
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jakarta
+
+---
+
+# Create service account
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: sa-diriku
+  namespace: jakarta
+automountServiceAccountToken: true
+
+---
+
+# Create role for serviceaccount
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: jakarta
+  name: role-diriku
+rules:
+- apiGroups: [""]
+  resources: ["secrets"]
+  verbs: ["get", "list"]
+---
+
+# Create rolebinding serviceaccount and role
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-diriku
+  namespace: jakarta
+subjects:
+- kind: ServiceAccount
+  name: sa-diriku
+  namespace: jakarta
+roleRef:
+  kind: Role 
+  name: role-diriku
+
+---
+
+# Create PV for nginx content
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-volume-diriku
+  namespace: jakarta
+  labels:
+    type: local
+spec:
+  storageClassName: microk8s-hostpath
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/var/www/sites"
+
+---
+
+# Create PVC for pv
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pv-claim-diriku
+  namespace: jakarta
+spec:
+  storageClassName: microk8s-hostpath
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+
+# Create deployment using service account, pvc
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: situs-diriku
+  name: situs-diriku
+  namespace: jakarta
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: situs-diriku
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: situs-diriku
+    spec:
+      serviceAccountName: sa-diriku
+      automountServiceAccountToken: true
+      containers:
+      - image: nginx:stable
+        name: situs-diriku
+        volumeMounts:
+            - mountPath: "/usr/share/nginx/html"
+              name: pv-storage-diriku
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      volumes:
+        - name: pv-storage-diriku
+          persistentVolumeClaim:
+            claimName: pv-claim-diriku
+
+---
+
+# Service to expose pod port
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-diriku
+  namespace: jakarta
+spec:
+  type: ClusterIP
+  selector:
+    app : situs-diriku
+  ports:
+    - port: 8080
+      targetPort: 80
+
+---
+
+# Expose service to port 80
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-diriku
+  namespace: jakarta
+spec:
+  defaultBackend:
+    service:
+      name: service-diriku
+      port:
+        number: 8080
+
+--- 
+
+# Create Guide Secret
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: secret-diriku
+  namespace: jakarta
+data:
+  myMessageForYou: VENQMVB7NG5kX2MzbDNicjR0M195MHVyX2g0cHAxM3N0X2Q0eXNfdGgzcjNfOicpfQo=
+
+---
+
+# Create service account
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: sa-cleanup
+  namespace: jakarta
+automountServiceAccountToken: true
+
+---
+
+# Create role for serviceaccount
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: jakarta
+  name: role-cleanup
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["delete","get","list"]
+
+---
+
+# Create rolebinding serviceaccount and role
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-cleanup
+  namespace: jakarta
+subjects:
+- kind: ServiceAccount
+  name: sa-cleanup
+  namespace: jakarta
+roleRef:
+  kind: Role 
+  name: role-cleanup
+
+---
+
+# Create Cronjob
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cronjob-cleanup
+  namespace: jakarta
+spec:
+  schedule: "0 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          serviceAccountName: sa-cleanup
+          automountServiceAccountToken: true
+          containers:
+          - name: cronjob-cleanup
+            image: badouralix/curl-jq:alpine
+            command: ["/bin/sh", "-c"]
+            args:
+            - |
+              curl -s https://foryou.lychnobyte.my.id:16443/api/v1/namespaces/jakarta/pods \
+              --header "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
+              --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt \
+              | jq -r '.items[].metadata.name' > list_pod.txt && \
+              for pod in $(cat list_pod.txt); do \
+              curl -XDELETE -s https://foryou.lychnobyte.my.id:16443/api/v1/namespaces/jakarta/pods/$pod \
+              --header "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
+              --cacert /var/run/secrets/kubernetes.io/serviceaccount/ca.crt; \
+              done
+          restartPolicy: Never

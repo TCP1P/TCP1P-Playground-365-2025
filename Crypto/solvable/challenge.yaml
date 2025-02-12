@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Solvable
+type: StaticAttachment
+author: rui
+description: |-
+  just want to say it's **solvable**
+
+flags:
+  - TCF2024{Indeed_its_solvable__just_coppersmith_with_DLP_inside}
+
+provide: ./dist
+
+visible: true
+value: 1000

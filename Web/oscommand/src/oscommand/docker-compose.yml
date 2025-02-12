@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  commandinjection:
+    build:
+      context: app
+    stop_signal: SIGINT
+    restart: always
+    ports:
+      - '6779:5000'
+    volumes:
+      - ./flag.txt:/sup3rsecr3td1rectory/flag.txt:ro

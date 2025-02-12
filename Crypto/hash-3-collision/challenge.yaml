@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: "Hash 3: Collision"
+type: StaticAttachment
+author: k1nomi
+description: |-
+    Aku baru saja membuat sebuah aplikasi yang akan memberikan flag pada user selama user itu telah terdaftar dalam sistem. Di sini aku berikan saja database username dan password mereka hehe. Selama sudah di-hash, password mereka akan aman... kan?
+
+    Connect ke nc {{ .host }} 21001
+
+flags:
+  - TCP1P{1_r34lly_h0p3_th4t_y0u_c0ns1der_ab0u7_c0ll1sion5_wh3n_m4k1ng_h4sh_func7i0n5}
+
+provide: ./server.py
+value: 1000
+
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)
+
+visible: true

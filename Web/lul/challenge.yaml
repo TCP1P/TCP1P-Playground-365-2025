@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: LuL
+author: Dimas
+type: StaticAttachment
+description: |-
+  is it exploitable?
+
+  Connect: http://{{ .host }}:39046
+
+flags:
+  - TCF2024{xss_on_the_path_is_really_out_of_this_world!}
+value: 1000
+
+provide: ./dist.zip
+
+visible: true
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

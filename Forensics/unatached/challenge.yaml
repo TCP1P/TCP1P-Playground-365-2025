@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Unattached
+type: StaticAttachment
+author: nagi
+description: |-
+  Out of boredom, I accidentally dumped all of my files into this plain-looking PDF. I wonder if I can get them back
+
+flags:
+  - TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}
+
+provide: ./releases/about-git.pdf
+visible: true
+value: 1000

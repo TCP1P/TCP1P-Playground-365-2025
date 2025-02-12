@@ -1,0 +1,18 @@
+{
+  "name": "note-fs",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  }
+}

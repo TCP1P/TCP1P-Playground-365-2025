@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Nearly NULL
+type: StaticAttachment
+author: cipichop
+description: |-
+  I have a document to be reviewed, but i cannot even extract it from the archive.
+
+flags:
+  - TCP1P{UuUuU_n0w_y0u_c4n_r3v3aL_mY_s3cr3t}
+value: 1000
+
+provide: document.zip
+
+visible: true

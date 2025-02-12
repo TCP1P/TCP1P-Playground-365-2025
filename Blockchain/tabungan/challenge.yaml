@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Tabungan
+type: StaticAttachment
+author: Dimas
+description: |-
+  I just build my first smart contract, can you check it? maybe i made little mistke in there T-T
+
+  Connect: http://{{ .host }}:11661
+
+flags:
+  - TCF2024{did_you_just_steal_my_ether_using_rentrancy_attack?}
+value: 1000
+
+provide: ./contracts
+
+scripts:
+  start: docker compose -p {{.slug}} up --build -d
+  stop: docker compose -p {{.slug}} down --volumes
+
+visible: true

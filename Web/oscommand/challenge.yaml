@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+author: 53buahapel
+type: StaticAttachment
+description: |-
+  Flag folder is in / directory. Find a way to get it.
+
+  restricted:
+  [';', '&', '|', '||', '&&', '>', '<', '(', ')', '{', '}', '[', ']', '\\', '\'', '"', '!', '*', '?', '~', '#', '%', '+', ' ']
+
+  Connect: http://{{ .host }}:6779
+flags:
+  - TCP1P{007150786cd8158d85d4d9445115857a82adc67310b8f78a011b9557dd540593}
+value: 1000
+name: oscommand
+visible: true
+scripts:
+  start: (cd ./src/oscommand && docker compose -p {{.slug}} up --build --detach)
+  stop: (cd ./src/oscommand && docker compose -p {{.slug}} down --volumes)

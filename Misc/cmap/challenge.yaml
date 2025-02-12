@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: CMap
+author: nagi
+type: StaticAttachment
+value: 1000
+visible: false
+description: |-
+  A friend of mine said he had installed a peculiar font on my system. However, it looked pretty much the same when I tried to use it. After a while, he confessed that he had been messing around with the mapping table, making it possible to store a certain amount of information on it
+
+flags:
+  - TCP1P{pr3tty_n4sty_cmap_table_isnt?}
+provide: ./releases/Document.docx
+hints:
+  - A single-font may come with multiple encoding tables to ensure compatibility across different platforms

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: "Holo Curl [Fixed]"
+author: "dimas"
+category: Web
+description: |
+    The Holo Agency has built a web application that allows you to fetch content from other websites. Would you check it for me?
+
+    Connection: http://{{ .host }}:31530
+value: 1000
+type: StaticAttachment
+
+flags:
+    - Hology6{why_using_socket_if_you_can_use_port_to_connect_to_fpm?}
+
+scripts:
+    start: docker compose up --build -d
+    stop: docker compose down --volumes
+
+provide: ./dist

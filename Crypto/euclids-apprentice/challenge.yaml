@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: euclid's apprentice
+type: StaticAttachment
+author: k1nomi
+description: |-
+    Pengetahuan yang baik dalam modular arithmetic akan sangat membantumu dalam crypto, terutama dalam memahami beberapa algoritma seperti RSA dan Diffie-Hellman. Kalau begitu, mari mulai dari basic-nya. Zaman dahulu kala, Euclid menemukan sebuah cara untuk menghitung faktor persekutuan terbesar/greatest common divisor (GCD) dari dua bilangan bulat `a` dan `b` dengan cepat (Euclidean algortihm).
+
+    Memperluas algoritmanya (Extended euclidean algorithm), kita juga bisa menemukan bilangan bulat `x` dan `y` yang memenuhi `ax + by = gcd(a,b)`.
+
+flags:
+    - TCP1P{eucl1de4n_alg0r1thmmmm_4ndd_b3z0utsss_1d3ntityyyy}
+value: 1000
+hints:
+  - angka `23` dan getPrime(216) itu konstanta random, tidak perlu dipikirkan
+  - ingat baik-baik apa output yang diberikan gcd() dan egcd()
+provide: ./dist
+
+visible: true

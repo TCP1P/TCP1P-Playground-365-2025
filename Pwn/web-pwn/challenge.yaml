@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Web PWN
+author: Dimas
+type: StaticAttachment
+description: |-
+    i get some path traversal here, but i don't know what to do with it, can you help me?
+
+    ```sh
+    curl http://{{ .host }}:22423/../../../../../../../../../etc/passwd --path-as-is
+    ```
+
+    Connection: http://{{ .host }}:22423
+
+flags:
+  - INTECHFEST{bypass-waf-with-rop-0033475c65985e0cfbc876842069a25b}
+value: 1000
+visible: false
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

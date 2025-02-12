@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+
+name: Cursed
+type: StaticAttachment
+author: rennfurukawa
+description: |-
+  why does my contract start using alien language? :(
+  don't use blockchain, AGAIN. it is so weird....
+
+  Server: http://{{ .host }}:42357
+
+flags:
+  - TCP1P{blockchain_is_so_weird_fr_0c195f80f26d}
+
+provide: ./contracts
+
+scripts:
+  start: docker compose -p {{.slug}} up --build -d
+  stop:  docker compose -p {{.slug}} down --volumes
+value: 1000
+visible: true

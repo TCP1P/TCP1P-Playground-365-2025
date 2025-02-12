@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Your Name Revenge
+type: StaticAttachment
+author: Dimas
+description: |-
+    What is your name :) ?
+
+    Connection: http://{{ .host }}:38908
+
+flags:
+  - TCF2023{1642071c-ebb8-4b3f-91fa-56abf92cf64c}
+value: 1000
+
+provide: ./dist.zip
+
+visible: true
+scripts:
+  start: (docker compose up --build --detach)
+  stop: (docker compose down --volumes)

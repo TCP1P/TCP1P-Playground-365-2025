@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+name: Random XOR
+type: StaticAttachment
+author: 404Gh0st
+description: |-
+  Hanya program simpel untuk enkripsi sebuah file.
+
+flags:
+  - TCP1P{p53uDO_RANDOM_IS_NOt_R4ndOM_at_A11}
+value: 1000
+
+provide: ./dist
+visible: true

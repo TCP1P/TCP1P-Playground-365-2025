@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../challenge.schema.yaml
+author: 404Gh0st
+type: StaticAttachment
+description: |-
+  When else will there be action figure wholesalers? Come and check our website for affordable prices.
+  Connect: http://{{ .host }}:30032
+flags:
+  - TCP1P{looks_like_devs_are_not_learning_from_their_mistakes}
+name: Action Figures
+provide: ./dist.zip
+value: 1000
+visible: true
+
+hints:
+  - Pastikan debug secara lokal terlebih dahulu
+scripts:
+  start: (cd ./src/action-figures && docker compose -p {{.slug}} up --build --detach)
+  stop: (cd ./src/action-figures && docker compose -p {{.slug}} down --volumes)
