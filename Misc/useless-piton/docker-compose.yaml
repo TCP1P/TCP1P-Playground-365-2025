@@ -3,6 +3,7 @@ version: "3.9"
 services:
   jail:
     build: .
+    userns_mode: host
     volumes:
       - ./app.py:/srv/app/run:ro
       - ./flag.txt:/srv/flag.txt:ro

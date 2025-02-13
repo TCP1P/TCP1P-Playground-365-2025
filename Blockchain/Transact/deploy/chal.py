@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-import eth_sandbox
+import sandbox
 from web3 import Web3
 
 
@@ -30,4 +30,4 @@ def deploy(
     return rcpt.contractAddress
 
 
-app = eth_sandbox.run_launcher(deploy)
+app = sandbox.run_launcher(deploy)
