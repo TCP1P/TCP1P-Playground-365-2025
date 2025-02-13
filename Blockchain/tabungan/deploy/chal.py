@@ -19,7 +19,7 @@ def deploy(
         {
             "from": deployer_address,
             "nonce": web3.eth.get_transaction_count(deployer_address),
-            "value": web3.toWei(100, 'ether')  # Adding 100 ether
+            "value": web3.to_wei(100, 'ether')  # Adding 100 ether
         }
     )
 
