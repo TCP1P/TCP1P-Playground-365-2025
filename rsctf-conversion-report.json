@@ -89,7 +89,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Crypto/crc32plus/challenge.yaml"
+      "manifest": "Jeopardy/Crypto/crc32plus-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Edward",
@@ -100,7 +100,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Crypto/edward/challenge.yaml"
+      "manifest": "Jeopardy/Crypto/edward-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Intechprimes",
@@ -194,7 +194,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Forensics/geraksendiri/challenge.yaml"
+      "manifest": "Jeopardy/Forensics/geraksendiri-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Leaked",
@@ -306,7 +306,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Misc/cj/challenge.yaml"
+      "manifest": "Jeopardy/Misc/cj-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "CJ Revenge",
@@ -317,7 +317,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Misc/cj-revenge/challenge.yaml"
+      "manifest": "Jeopardy/Misc/cj-revenge-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Previewer",
@@ -337,7 +337,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Misc/typical/challenge.yaml"
+      "manifest": "Jeopardy/Misc/typical-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "CMap",
@@ -529,7 +529,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Pwn/zeno-day/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/zeno-day-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Box",
