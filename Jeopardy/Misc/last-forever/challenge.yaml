@@ -1,0 +1,21 @@
+name: Last Forever
+author: Lychnobyte
+description: 'I have erased all my memories of you. But, why are you still in the deepest part of my heart? :'')
+
+
+  `http://forever.lychnobyte.my.id`
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/last-forever).'
+type: StaticAttachment
+category: Misc
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+hints:
+- cloud challenge
+flags:
+- TCP1P{jus7_l1k3_wh4t_1_s4id_y0u_4lw4ys_r3m4in5_h3r3_f0r3v3r_:')}
+provide: dist

@@ -1,0 +1,805 @@
+{
+  "sourceRepository": "TCP1P/TCP1P-Playground-365-2025",
+  "targetRepository": "TCP1P/TCP1P-Playground-365-2025",
+  "private": false,
+  "events": [
+    "TCP1P Playground 365 2025"
+  ],
+  "challenges": [
+    {
+      "name": "FFF",
+      "category": "Blockchain",
+      "source": "Blockchain/Fallback Fallback Fallback!/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/Fallback%20Fallback%20Fallback%21",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/fff/challenge.yaml"
+    },
+    {
+      "name": "Transact",
+      "category": "Blockchain",
+      "source": "Blockchain/Transact/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/Transact",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/transact/challenge.yaml"
+    },
+    {
+      "name": "Chest",
+      "category": "Blockchain",
+      "source": "Blockchain/chest/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/chest/challenge.yaml"
+    },
+    {
+      "name": "Chest V2",
+      "category": "Blockchain",
+      "source": "Blockchain/chest-v2/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest-v2",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/chest-v2/challenge.yaml"
+    },
+    {
+      "name": "Cursed",
+      "category": "Blockchain",
+      "source": "Blockchain/cursed/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/cursed",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/cursed/challenge.yaml"
+    },
+    {
+      "name": "IP What?",
+      "category": "Blockchain",
+      "source": "Blockchain/ip-what/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/ip-what",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Blockchain/ip-what/challenge.yaml"
+    },
+    {
+      "name": "Tabungan",
+      "category": "Blockchain",
+      "source": "Blockchain/tabungan/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/tabungan",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Blockchain/tabungan/challenge.yaml"
+    },
+    {
+      "name": "Alin",
+      "category": "Crypto",
+      "source": "Crypto/Alin/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Alin",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/alin/challenge.yaml"
+    },
+    {
+      "name": "CRC32plus",
+      "category": "Crypto",
+      "source": "Crypto/CRC32plus/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/CRC32plus",
+      "type": "StaticAttachment",
+      "warnings": [
+        "flag recovered from the archived challenge tree",
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Crypto/crc32plus/challenge.yaml"
+    },
+    {
+      "name": "Edward",
+      "category": "Crypto",
+      "source": "Crypto/Edward/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Edward",
+      "type": "StaticAttachment",
+      "warnings": [
+        "flag recovered from the archived challenge tree",
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Crypto/edward/challenge.yaml"
+    },
+    {
+      "name": "Intechprimes",
+      "category": "Crypto",
+      "source": "Crypto/Intechprimes/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Intechprimes",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/intechprimes/challenge.yaml"
+    },
+    {
+      "name": "PPPPPPvalo",
+      "category": "Crypto",
+      "source": "Crypto/PPPPPPvalo/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/PPPPPPvalo",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/ppppppvalo/challenge.yaml"
+    },
+    {
+      "name": "Twice",
+      "category": "Crypto",
+      "source": "Crypto/Twice/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Twice",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/twice/challenge.yaml"
+    },
+    {
+      "name": "bukan-rsa",
+      "category": "Crypto",
+      "source": "Crypto/bukan-rsa/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/bukan-rsa",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Crypto/bukan-rsa/challenge.yaml"
+    },
+    {
+      "name": "euclid's apprentice",
+      "category": "Crypto",
+      "source": "Crypto/euclids-apprentice/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/euclids-apprentice",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/euclid-s-apprentice/challenge.yaml"
+    },
+    {
+      "name": "Hash 3: Collision",
+      "category": "Crypto",
+      "source": "Crypto/hash-3-collision/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/hash-3-collision",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/hash-3-collision/challenge.yaml"
+    },
+    {
+      "name": "OTP",
+      "category": "Crypto",
+      "source": "Crypto/otp/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/otp",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/otp/challenge.yaml"
+    },
+    {
+      "name": "Solvable",
+      "category": "Crypto",
+      "source": "Crypto/solvable/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/solvable",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/solvable/challenge.yaml"
+    },
+    {
+      "name": "Yowai Kagi",
+      "category": "Crypto",
+      "source": "Crypto/yowai-kagi/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/yowai-kagi",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/yowai-kagi/challenge.yaml"
+    },
+    {
+      "name": "GerakSendiri",
+      "category": "Forensics",
+      "source": "Forensics/GerakSendiri/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/GerakSendiri",
+      "type": "StaticAttachment",
+      "warnings": [
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Forensics/geraksendiri/challenge.yaml"
+    },
+    {
+      "name": "Leaked",
+      "category": "Forensics",
+      "source": "Forensics/Leaked/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/Leaked",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/leaked/challenge.yaml"
+    },
+    {
+      "name": "P2P",
+      "category": "Forensics",
+      "source": "Forensics/P2P/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/P2P",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/p2p/challenge.yaml"
+    },
+    {
+      "name": "Staged",
+      "category": "Forensics",
+      "source": "Forensics/Staged/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/Staged",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/staged/challenge.yaml"
+    },
+    {
+      "name": "Aku Anak Foren",
+      "category": "Forensics",
+      "source": "Forensics/aku-anak-foren/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/aku-anak-foren",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/aku-anak-foren/challenge.yaml"
+    },
+    {
+      "name": "Audio Images ?",
+      "category": "Forensics",
+      "source": "Forensics/audio-images/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/audio-images",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Forensics/audio-images/challenge.yaml"
+    },
+    {
+      "name": "Cracknosaurus",
+      "category": "Forensics",
+      "source": "Forensics/cracknosaurus/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/cracknosaurus",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/cracknosaurus/challenge.yaml"
+    },
+    {
+      "name": "kuli-ah forensik",
+      "category": "Forensics",
+      "source": "Forensics/kuli-ah-forensik/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/kuli-ah-forensik",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/kuli-ah-forensik/challenge.yaml"
+    },
+    {
+      "name": "Nearly NULL",
+      "category": "Forensics",
+      "source": "Forensics/nearly-null/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/nearly-null",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/nearly-null/challenge.yaml"
+    },
+    {
+      "name": "pemanasan",
+      "category": "Forensics",
+      "source": "Forensics/pemanasan/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/pemanasan",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/pemanasan/challenge.yaml"
+    },
+    {
+      "name": "Portrait",
+      "category": "Forensics",
+      "source": "Forensics/potrait/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/potrait",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/portrait/challenge.yaml"
+    },
+    {
+      "name": "Unattached",
+      "category": "Forensics",
+      "source": "Forensics/unatached/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/unatached",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/unattached/challenge.yaml"
+    },
+    {
+      "name": "CJ",
+      "category": "Misc",
+      "source": "Misc/CJ/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/CJ",
+      "type": "StaticAttachment",
+      "warnings": [
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Misc/cj/challenge.yaml"
+    },
+    {
+      "name": "CJ Revenge",
+      "category": "Misc",
+      "source": "Misc/CJ Revenge/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/CJ%20Revenge",
+      "type": "StaticAttachment",
+      "warnings": [
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Misc/cj-revenge/challenge.yaml"
+    },
+    {
+      "name": "Previewer",
+      "category": "Misc",
+      "source": "Misc/Previewer/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/Previewer",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/previewer/challenge.yaml"
+    },
+    {
+      "name": "Typical",
+      "category": "Misc",
+      "source": "Misc/Typical/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/Typical",
+      "type": "StaticAttachment",
+      "warnings": [
+        "flag recovered from the archived challenge tree",
+        "container package was not safely portable; imported as an archived attachment"
+      ],
+      "manifest": "Jeopardy/Misc/typical/challenge.yaml"
+    },
+    {
+      "name": "CMap",
+      "category": "Misc",
+      "source": "Misc/cmap/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/cmap",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/cmap/challenge.yaml"
+    },
+    {
+      "name": "Last Forever",
+      "category": "Misc",
+      "source": "Misc/last-forever/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/last-forever",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Misc/last-forever/challenge.yaml"
+    },
+    {
+      "name": "No Connection",
+      "category": "Misc",
+      "source": "Misc/no-connection/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/no-connection",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/no-connection/challenge.yaml"
+    },
+    {
+      "name": "That Day",
+      "category": "Misc",
+      "source": "Misc/that-day/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/that-day",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Misc/that-day/challenge.yaml"
+    },
+    {
+      "name": "Useless Piton",
+      "category": "Misc",
+      "source": "Misc/useless-piton/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/useless-piton",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/useless-piton/challenge.yaml"
+    },
+    {
+      "name": "Endgame",
+      "category": "Mobile",
+      "source": "Mobile/Endgame/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/Endgame",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Mobile/endgame/challenge.yaml"
+    },
+    {
+      "name": "Intro To APK",
+      "category": "Mobile",
+      "source": "Mobile/Intro To Apk/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/Intro%20To%20Apk",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Mobile/intro-to-apk/challenge.yaml"
+    },
+    {
+      "name": "Intro To Intent",
+      "category": "Mobile",
+      "source": "Mobile/intro_to_intent/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/intro_to_intent",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Mobile/intro-to-intent/challenge.yaml"
+    },
+    {
+      "name": "Details",
+      "category": "OSINT",
+      "source": "OSINT/Details/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/OSINT/Details",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment omitted to stay below the repository size limit"
+      ],
+      "manifest": "Jeopardy/OSINT/details/challenge.yaml"
+    },
+    {
+      "name": "PwnTest",
+      "category": "Pwn",
+      "source": "Pwn/PwnTest/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/PwnTest",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment archive exceeds RSCTF's per-file limit"
+      ],
+      "manifest": "Jeopardy/Pwn/pwntest/challenge.yaml"
+    },
+    {
+      "name": "English or Spanish?",
+      "category": "Pwn",
+      "source": "Pwn/english_or_spanish/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/english_or_spanish",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/english-or-spanish/challenge.yaml"
+    },
+    {
+      "name": "minivm",
+      "category": "Pwn",
+      "source": "Pwn/minivm/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/minivm",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/minivm/challenge.yaml"
+    },
+    {
+      "name": "pwnable",
+      "category": "Pwn",
+      "source": "Pwn/pwnable/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/pwnable",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/pwnable/challenge.yaml"
+    },
+    {
+      "name": "Pyjail Wannabe",
+      "category": "Pwn",
+      "source": "Pwn/pyjail_wannabe/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/pyjail_wannabe",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/pyjail-wannabe/challenge.yaml"
+    },
+    {
+      "name": "ret2win",
+      "category": "Pwn",
+      "source": "Pwn/ret2win/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/ret2win/challenge.yaml"
+    },
+    {
+      "name": "ret2win 2",
+      "category": "Pwn",
+      "source": "Pwn/ret2win-2/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-2",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/ret2win-2/challenge.yaml"
+    },
+    {
+      "name": "ret2win 3",
+      "category": "Pwn",
+      "source": "Pwn/ret2win-3/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-3",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/ret2win-3/challenge.yaml"
+    },
+    {
+      "name": "ret2win 4",
+      "category": "Pwn",
+      "source": "Pwn/ret2win-4/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-4",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/ret2win-4/challenge.yaml"
+    },
+    {
+      "name": "Web PWN",
+      "category": "Pwn",
+      "source": "Pwn/web-pwn/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/web-pwn",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Pwn/web-pwn/challenge.yaml"
+    },
+    {
+      "name": "Zeno Day",
+      "category": "Pwn",
+      "source": "Pwn/zeno_day/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/zeno_day",
+      "type": "StaticContainer",
+      "warnings": [
+        "flag recovered from the archived challenge tree",
+        "dynamic container lacked a supported flag template; converted to StaticContainer"
+      ],
+      "manifest": "Jeopardy/Pwn/zeno-day/challenge.yaml"
+    },
+    {
+      "name": "Box",
+      "category": "Reverse",
+      "source": "Reverse/Box/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Box",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment omitted to stay below the repository size limit"
+      ],
+      "manifest": "Jeopardy/Reverse/box/challenge.yaml"
+    },
+    {
+      "name": "Branches",
+      "category": "Reverse",
+      "source": "Reverse/Branches/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Branches",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/branches/challenge.yaml"
+    },
+    {
+      "name": "Intro To Unity",
+      "category": "Reverse",
+      "source": "Reverse/FlapySec/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/FlapySec",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment omitted to stay below the repository size limit"
+      ],
+      "manifest": "Jeopardy/Reverse/intro-to-unity/challenge.yaml"
+    },
+    {
+      "name": "Hidden in the Abyss",
+      "category": "Reverse",
+      "source": "Reverse/Hidden in the Abyss/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Hidden%20in%20the%20Abyss",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/hidden-in-the-abyss/challenge.yaml"
+    },
+    {
+      "name": "IOP",
+      "category": "Reverse",
+      "source": "Reverse/IOP/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/IOP",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/iop/challenge.yaml"
+    },
+    {
+      "name": "Key Checker",
+      "category": "Reverse",
+      "source": "Reverse/Key Checker/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Key%20Checker",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/key-checker/challenge.yaml"
+    },
+    {
+      "name": "Serial",
+      "category": "Reverse",
+      "source": "Reverse/Serial/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Serial",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/serial/challenge.yaml"
+    },
+    {
+      "name": "Standard",
+      "category": "Reverse",
+      "source": "Reverse/Standard/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Standard",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/standard/challenge.yaml"
+    },
+    {
+      "name": "Babiest Rev",
+      "category": "Reverse",
+      "source": "Reverse/babiest-rev/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/babiest-rev",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/babiest-rev/challenge.yaml"
+    },
+    {
+      "name": "Micro Rev",
+      "category": "Reverse",
+      "source": "Reverse/micro-rev/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/micro-rev",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/micro-rev/challenge.yaml"
+    },
+    {
+      "name": "Mini Rev",
+      "category": "Reverse",
+      "source": "Reverse/mini-rev/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/mini-rev",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/mini-rev/challenge.yaml"
+    },
+    {
+      "name": "Random XOR",
+      "category": "Reverse",
+      "source": "Reverse/random-xor/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/random-xor",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/random-xor/challenge.yaml"
+    },
+    {
+      "name": "Serialization",
+      "category": "Reverse",
+      "source": "Reverse/serialization/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/serialization",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/serialization/challenge.yaml"
+    },
+    {
+      "name": "Client Side Programming",
+      "category": "Web",
+      "source": "Web/Client Side Programming/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Client%20Side%20Programming",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/client-side-programming/challenge.yaml"
+    },
+    {
+      "name": "Holo Curl [Fixed]",
+      "category": "Web",
+      "source": "Web/Holo-Curl[Fix]/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Holo-Curl%5BFix%5D",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/holo-curl-fixed/challenge.yaml"
+    },
+    {
+      "name": "Imposible",
+      "category": "Web",
+      "source": "Web/Imposible/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Imposible",
+      "type": "DynamicContainer",
+      "warnings": [
+        "no literal flag could be recovered; organizer review required"
+      ],
+      "manifest": "Jeopardy/Web/imposible/challenge.yaml"
+    },
+    {
+      "name": "Notes Manager",
+      "category": "Web",
+      "source": "Web/Notes Manager/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Notes%20Manager",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/notes-manager/challenge.yaml"
+    },
+    {
+      "name": "Library",
+      "category": "Web",
+      "source": "Web/The Library/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/The%20Library",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment archive exceeds RSCTF's per-file limit"
+      ],
+      "manifest": "Jeopardy/Web/library/challenge.yaml"
+    },
+    {
+      "name": "Action Figures",
+      "category": "Web",
+      "source": "Web/action-figures/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/action-figures",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/action-figures/challenge.yaml"
+    },
+    {
+      "name": "Back-Forward Cache",
+      "category": "Web",
+      "source": "Web/bfcache/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/bfcache",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/back-forward-cache/challenge.yaml"
+    },
+    {
+      "name": "ExPath1",
+      "category": "Web",
+      "source": "Web/expath1/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/expath1",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/expath1/challenge.yaml"
+    },
+    {
+      "name": "Exxxxed",
+      "category": "Web",
+      "source": "Web/exxxxed/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/exxxxed",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/exxxxed/challenge.yaml"
+    },
+    {
+      "name": "litever",
+      "category": "Web",
+      "source": "Web/literver/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/literver",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/litever/challenge.yaml"
+    },
+    {
+      "name": "LuL",
+      "category": "Web",
+      "source": "Web/lul/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/lul",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/lul/challenge.yaml"
+    },
+    {
+      "name": "Missing XSS",
+      "category": "Web",
+      "source": "Web/missing_xss/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/missing_xss",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/missing-xss/challenge.yaml"
+    },
+    {
+      "name": "Note FS",
+      "category": "Web",
+      "source": "Web/note-fs/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/note-fs",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/note-fs/challenge.yaml"
+    },
+    {
+      "name": "oscommand",
+      "category": "Web",
+      "source": "Web/oscommand/challenge.yaml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/oscommand",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/oscommand/challenge.yaml"
+    },
+    {
+      "name": "Your Name Revenge",
+      "category": "Web",
+      "source": "Web/your-name-revenge/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/your-name-revenge",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/your-name-revenge/challenge.yaml"
+    }
+  ]
+}

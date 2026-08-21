@@ -1,0 +1,21 @@
+name: That Day
+author: Lychnobyte
+description: 'But perhaps you hate a thing and it''s good for you And perhaps you love a thing and it''s bad for you :'')
+
+
+  `http://foryou.lychnobyte.my.id`
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/that-day).'
+type: StaticAttachment
+category: Misc
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+hints:
+- cloud challenge
+flags:
+- TCP1P{4nd_c3l3br4t3_y0ur_h4pp13st_d4ys_th3r3_:')}
+provide: dist

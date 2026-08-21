@@ -1,0 +1,22 @@
+name: Back-Forward Cache
+author: Dimas
+description: 'Iam preety sure isn''t exploitable!
+
+
+  Bot: http://{{ .host }}:4354
+
+
+  Web: http://{{ .host }}:35029
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/bfcache).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{bfcache_is_interesting_in_browser_especially_in_bypassing_header_check}
+provide: dist

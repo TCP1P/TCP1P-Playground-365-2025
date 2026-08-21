@@ -1,0 +1,19 @@
+name: Holo Curl [Fixed]
+author: dimas
+description: 'The Holo Agency has built a web application that allows you to fetch content from other websites. Would you check it for me?
+
+
+  Connection: http://{{ .host }}:31530
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Holo-Curl%5BFix%5D).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- Hology6{why_using_socket_if_you_can_use_port_to_connect_to_fpm?}
+provide: dist

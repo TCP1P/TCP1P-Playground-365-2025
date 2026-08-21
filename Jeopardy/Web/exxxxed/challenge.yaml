@@ -1,0 +1,27 @@
+name: Exxxxed
+author: Dimas
+description: 'is it secure?
+
+
+  note: `there''s a flag in admin cookie`
+
+
+  Bot: http://{{ .host }}:4546/report/
+
+
+  Web: http://{{ .host }}:4546
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/exxxxed).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+hints:
+- replace is a sus function
+flags:
+- TCP1P{replace_is_really_sus_function_isn't_it?}
+provide: dist

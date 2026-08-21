@@ -1,0 +1,16 @@
+name: Portrait
+author: nagi
+description: 'A man had typed a bunch of characters to create a peculiar portrait. Legend said that this portrait may hide a secret beneath it. Can you unveil the secret of the portrait?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/potrait).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{und3rrated_pi3ce_of_4rt_m4de_by_w1reless_keyboard}
+provide: dist
