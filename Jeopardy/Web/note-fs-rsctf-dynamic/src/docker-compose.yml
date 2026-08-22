@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    restart: on-failure
+    ports:
+      - 4823:3000

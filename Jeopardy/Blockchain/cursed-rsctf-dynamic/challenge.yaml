@@ -1,0 +1,24 @@
+name: Cursed
+author: rennfurukawa
+description: 'why does my contract start using alien language? :(
+
+  don''t use blockchain, AGAIN. it is so weird....
+
+
+  Server: http://{{ .host }}:42357
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/cursed).'
+type: DynamicContainer
+category: Blockchain
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCP1P{cursed________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false

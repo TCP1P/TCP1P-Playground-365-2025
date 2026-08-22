@@ -11,18 +11,30 @@
       "category": "Blockchain",
       "source": "Blockchain/Fallback Fallback Fallback!/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/Fallback%20Fallback%20Fallback%21",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Blockchain/fff/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{fff_________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Blockchain/fff-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Transact",
       "category": "Blockchain",
       "source": "Blockchain/Transact/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/Transact",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Blockchain/transact/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{transact___________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Blockchain/transact-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Chest",
@@ -30,6 +42,7 @@
       "source": "Blockchain/chest/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Blockchain/chest/challenge.yaml"
     },
@@ -39,6 +52,7 @@
       "source": "Blockchain/chest-v2/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest-v2",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Blockchain/chest-v2/challenge.yaml"
     },
@@ -47,9 +61,15 @@
       "category": "Blockchain",
       "source": "Blockchain/cursed/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/cursed",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Blockchain/cursed/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{cursed________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Blockchain/cursed-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "IP What?",
@@ -57,6 +77,7 @@
       "source": "Blockchain/ip-what/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/ip-what",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -67,9 +88,15 @@
       "category": "Blockchain",
       "source": "Blockchain/tabungan/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/tabungan",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Blockchain/tabungan/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{tabungan___________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Blockchain/tabungan-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Alin",
@@ -77,6 +104,7 @@
       "source": "Crypto/Alin/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Alin",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/alin/challenge.yaml"
     },
@@ -86,9 +114,8 @@
       "source": "Crypto/CRC32plus/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/CRC32plus",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Crypto/crc32plus-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -97,9 +124,8 @@
       "source": "Crypto/Edward/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Edward",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Crypto/edward-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -108,6 +134,7 @@
       "source": "Crypto/Intechprimes/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Intechprimes",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/intechprimes/challenge.yaml"
     },
@@ -117,6 +144,7 @@
       "source": "Crypto/PPPPPPvalo/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/PPPPPPvalo",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/ppppppvalo/challenge.yaml"
     },
@@ -126,6 +154,7 @@
       "source": "Crypto/Twice/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/Twice",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/twice/challenge.yaml"
     },
@@ -135,6 +164,7 @@
       "source": "Crypto/bukan-rsa/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/bukan-rsa",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -146,6 +176,7 @@
       "source": "Crypto/euclids-apprentice/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/euclids-apprentice",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/euclid-s-apprentice/challenge.yaml"
     },
@@ -154,9 +185,15 @@
       "category": "Crypto",
       "source": "Crypto/hash-3-collision/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/hash-3-collision",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Crypto/hash-3-collision/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{hash_3_collision___________________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Crypto/hash-3-collision-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "OTP",
@@ -164,6 +201,7 @@
       "source": "Crypto/otp/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/otp",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/otp/challenge.yaml"
     },
@@ -173,6 +211,7 @@
       "source": "Crypto/solvable/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/solvable",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/solvable/challenge.yaml"
     },
@@ -182,6 +221,7 @@
       "source": "Crypto/yowai-kagi/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/yowai-kagi",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/yowai-kagi/challenge.yaml"
     },
@@ -191,9 +231,8 @@
       "source": "Forensics/GerakSendiri/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/GerakSendiri",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Forensics/geraksendiri-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -202,6 +241,7 @@
       "source": "Forensics/Leaked/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/Leaked",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/leaked/challenge.yaml"
     },
@@ -211,6 +251,7 @@
       "source": "Forensics/P2P/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/P2P",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/p2p/challenge.yaml"
     },
@@ -220,6 +261,7 @@
       "source": "Forensics/Staged/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/Staged",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/staged/challenge.yaml"
     },
@@ -229,6 +271,7 @@
       "source": "Forensics/aku-anak-foren/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/aku-anak-foren",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/aku-anak-foren/challenge.yaml"
     },
@@ -238,6 +281,7 @@
       "source": "Forensics/audio-images/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/audio-images",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -249,6 +293,7 @@
       "source": "Forensics/cracknosaurus/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/cracknosaurus",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/cracknosaurus/challenge.yaml"
     },
@@ -258,6 +303,7 @@
       "source": "Forensics/kuli-ah-forensik/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/kuli-ah-forensik",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/kuli-ah-forensik/challenge.yaml"
     },
@@ -267,6 +313,7 @@
       "source": "Forensics/nearly-null/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/nearly-null",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/nearly-null/challenge.yaml"
     },
@@ -276,6 +323,7 @@
       "source": "Forensics/pemanasan/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/pemanasan",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/pemanasan/challenge.yaml"
     },
@@ -285,6 +333,7 @@
       "source": "Forensics/potrait/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/potrait",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/portrait/challenge.yaml"
     },
@@ -294,6 +343,7 @@
       "source": "Forensics/unatached/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/unatached",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/unattached/challenge.yaml"
     },
@@ -303,9 +353,8 @@
       "source": "Misc/CJ/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/CJ",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Misc/cj-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -314,9 +363,8 @@
       "source": "Misc/CJ Revenge/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/CJ%20Revenge",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Misc/cj-revenge-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -325,6 +373,7 @@
       "source": "Misc/Previewer/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/Previewer",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Misc/previewer/challenge.yaml"
     },
@@ -334,9 +383,8 @@
       "source": "Misc/Typical/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/Typical",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Misc/typical-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -345,6 +393,7 @@
       "source": "Misc/cmap/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/cmap",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Misc/cmap/challenge.yaml"
     },
@@ -354,6 +403,7 @@
       "source": "Misc/last-forever/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/last-forever",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -365,6 +415,7 @@
       "source": "Misc/no-connection/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/no-connection",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [],
       "manifest": "Jeopardy/Misc/no-connection/challenge.yaml"
     },
@@ -374,6 +425,7 @@
       "source": "Misc/that-day/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/that-day",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -384,9 +436,15 @@
       "category": "Misc",
       "source": "Misc/useless-piton/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/useless-piton",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Misc/useless-piton/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'INTECHFEST{useless_piton___________________[TEAM_HASH]}'",
+        "dynamic flag delivery uses the legacy Compose flag file adapter",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Misc/useless-piton-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Endgame",
@@ -394,6 +452,7 @@
       "source": "Mobile/Endgame/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/Endgame",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Mobile/endgame/challenge.yaml"
     },
@@ -403,6 +462,7 @@
       "source": "Mobile/Intro To Apk/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/Intro%20To%20Apk",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Mobile/intro-to-apk/challenge.yaml"
     },
@@ -412,7 +472,10 @@
       "source": "Mobile/intro_to_intent/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Mobile/intro_to_intent",
       "type": "StaticAttachment",
-      "warnings": [],
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "warnings": [
+        "attachment omitted to stay below the repository size limit"
+      ],
       "manifest": "Jeopardy/Mobile/intro-to-intent/challenge.yaml"
     },
     {
@@ -421,6 +484,7 @@
       "source": "OSINT/Details/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/OSINT/Details",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "attachment omitted to stay below the repository size limit"
       ],
@@ -431,83 +495,135 @@
       "category": "Pwn",
       "source": "Pwn/PwnTest/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/PwnTest",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "attachment archive exceeds RSCTF's per-file limit"
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'INTECHFEST{pwntest_______________________________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Pwn/pwntest/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/pwntest-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "English or Spanish?",
       "category": "Pwn",
       "source": "Pwn/english_or_spanish/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/english_or_spanish",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/english-or-spanish/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'INTECHFEST{english_or_spanish________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/english-or-spanish-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "minivm",
       "category": "Pwn",
       "source": "Pwn/minivm/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/minivm",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/minivm/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{minivm_________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/minivm-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "pwnable",
       "category": "Pwn",
       "source": "Pwn/pwnable/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/pwnable",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/pwnable/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{pwnable____________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/pwnable-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Pyjail Wannabe",
       "category": "Pwn",
       "source": "Pwn/pyjail_wannabe/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/pyjail_wannabe",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/pyjail-wannabe/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'INTECHFEST{pyjail_wannabe________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/pyjail-wannabe-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "ret2win",
       "category": "Pwn",
       "source": "Pwn/ret2win/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/ret2win/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{ret2win____________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/ret2win-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "ret2win 2",
       "category": "Pwn",
       "source": "Pwn/ret2win-2/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-2",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/ret2win-2/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{ret2win_2___________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/ret2win-2-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "ret2win 3",
       "category": "Pwn",
       "source": "Pwn/ret2win-3/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-3",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/ret2win-3/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{ret2win_3_____________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/ret2win-3-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "ret2win 4",
       "category": "Pwn",
       "source": "Pwn/ret2win-4/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/ret2win-4",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/ret2win-4/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{ret2win_4_____________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/ret2win-4-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Web PWN",
@@ -515,6 +631,7 @@
       "source": "Pwn/web-pwn/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/web-pwn",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -526,9 +643,8 @@
       "source": "Pwn/zeno_day/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/zeno_day",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Pwn/zeno-day-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -537,6 +653,7 @@
       "source": "Reverse/Box/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Box",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "attachment omitted to stay below the repository size limit"
       ],
@@ -548,6 +665,7 @@
       "source": "Reverse/Branches/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Branches",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/branches/challenge.yaml"
     },
@@ -557,6 +675,7 @@
       "source": "Reverse/FlapySec/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/FlapySec",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "attachment omitted to stay below the repository size limit"
       ],
@@ -568,6 +687,7 @@
       "source": "Reverse/Hidden in the Abyss/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Hidden%20in%20the%20Abyss",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/hidden-in-the-abyss/challenge.yaml"
     },
@@ -577,6 +697,7 @@
       "source": "Reverse/IOP/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/IOP",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/iop/challenge.yaml"
     },
@@ -586,6 +707,7 @@
       "source": "Reverse/Key Checker/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Key%20Checker",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/key-checker/challenge.yaml"
     },
@@ -595,6 +717,7 @@
       "source": "Reverse/Serial/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Serial",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/serial/challenge.yaml"
     },
@@ -604,6 +727,7 @@
       "source": "Reverse/Standard/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/Standard",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/standard/challenge.yaml"
     },
@@ -613,6 +737,7 @@
       "source": "Reverse/babiest-rev/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/babiest-rev",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/babiest-rev/challenge.yaml"
     },
@@ -622,6 +747,7 @@
       "source": "Reverse/micro-rev/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/micro-rev",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/micro-rev/challenge.yaml"
     },
@@ -631,6 +757,7 @@
       "source": "Reverse/mini-rev/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/mini-rev",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/mini-rev/challenge.yaml"
     },
@@ -640,6 +767,7 @@
       "source": "Reverse/random-xor/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/random-xor",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/random-xor/challenge.yaml"
     },
@@ -649,6 +777,7 @@
       "source": "Reverse/serialization/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/serialization",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/serialization/challenge.yaml"
     },
@@ -658,6 +787,7 @@
       "source": "Web/Client Side Programming/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Client%20Side%20Programming",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Web/client-side-programming/challenge.yaml"
     },
@@ -667,6 +797,7 @@
       "source": "Web/Holo-Curl[Fix]/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Holo-Curl%5BFix%5D",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [],
       "manifest": "Jeopardy/Web/holo-curl-fixed/challenge.yaml"
     },
@@ -676,9 +807,8 @@
       "source": "Web/Imposible/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Imposible",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Web/imposible/challenge.yaml"
     },
     {
@@ -687,6 +817,7 @@
       "source": "Web/Notes Manager/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Notes%20Manager",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -698,6 +829,7 @@
       "source": "Web/The Library/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/The%20Library",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "attachment archive exceeds RSCTF's per-file limit"
       ],
@@ -709,7 +841,10 @@
       "source": "Web/action-figures/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/action-figures",
       "type": "StaticAttachment",
-      "warnings": [],
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "warnings": [
+        "attachment omitted to stay below the repository size limit"
+      ],
       "manifest": "Jeopardy/Web/action-figures/challenge.yaml"
     },
     {
@@ -718,6 +853,7 @@
       "source": "Web/bfcache/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/bfcache",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Web/back-forward-cache/challenge.yaml"
     },
@@ -727,6 +863,7 @@
       "source": "Web/expath1/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/expath1",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Web/expath1/challenge.yaml"
     },
@@ -736,6 +873,7 @@
       "source": "Web/exxxxed/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/exxxxed",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -747,6 +885,7 @@
       "source": "Web/literver/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/literver",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Web/litever/challenge.yaml"
     },
@@ -756,6 +895,7 @@
       "source": "Web/lul/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/lul",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [],
       "manifest": "Jeopardy/Web/lul/challenge.yaml"
     },
@@ -765,6 +905,7 @@
       "source": "Web/missing_xss/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/missing_xss",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [],
       "manifest": "Jeopardy/Web/missing-xss/challenge.yaml"
     },
@@ -773,9 +914,15 @@
       "category": "Web",
       "source": "Web/note-fs/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/note-fs",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Web/note-fs/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{note_fs___________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Web/note-fs-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "oscommand",
@@ -783,6 +930,7 @@
       "source": "Web/oscommand/challenge.yaml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/oscommand",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],
@@ -794,6 +942,7 @@
       "source": "Web/your-name-revenge/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/your-name-revenge",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Web/your-name-revenge/challenge.yaml"
     }
