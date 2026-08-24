@@ -1,0 +1,5 @@
+Notes Manager
+
+Original source: https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Notes%20Manager
+
+Local archive note: no player attachment files were present.

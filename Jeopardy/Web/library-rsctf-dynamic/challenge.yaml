@@ -9,6 +9,7 @@ description: |-
   Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/The%20Library).
 type: DynamicContainer
 category: Web
+provide: dist
 minScoreRate: 0.01
 difficulty: 5
 disableBloodBonus: true
