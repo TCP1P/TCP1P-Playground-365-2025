@@ -13,6 +13,7 @@ description: 'Flag folder is in / directory. Find a way to get it.
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/oscommand).'
 type: DynamicContainer
 category: Web
+provide: dist
 minScoreRate: 0.01
 difficulty: 5
 disableBloodBonus: true
