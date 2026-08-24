@@ -1,0 +1,22 @@
+name: Exxxxed
+author: Dimas
+description: |-
+  Is it secure?
+
+  Note: there is a flag in the admin cookie. The admin report form is at `/report/`.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/exxxxed).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+hints:
+  - replace is a sus function
+flagTemplate: TCP1P{exxxxed_________________[TEAM_HASH]}
+container:
+  memoryLimit: 768
+  cpuCount: 2
+  exposePort: 8080
+  enableTrafficCapture: false

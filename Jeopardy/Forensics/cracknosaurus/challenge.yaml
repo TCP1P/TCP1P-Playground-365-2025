@@ -18,9 +18,9 @@ description: 'Budi is a vocational school student and a famous hacker in his cla
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/cracknosaurus).'
 type: StaticAttachment
 category: Forensics
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCP1P{m4st3r1ng_cr4ck1ng_w1th_r0cky0u!!!}
 provide: dist

@@ -8,7 +8,6 @@ description: 'Sure sure, you are good at hacking server made using PHP, JavaScri
   Flag is located at `/flag_<random-uuid>.txt`
 
 
-  **URL**: `http://{{ .host }}:40279`
 
 
   ---
@@ -16,9 +15,9 @@ description: 'Sure sure, you are good at hacking server made using PHP, JavaScri
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/The%20Library).'
 type: StaticAttachment
 category: Web
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - INTECHFEST{L1nQ_Inj3cTshio0000nnnnn}
 provide: dist

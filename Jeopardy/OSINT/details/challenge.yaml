@@ -17,9 +17,9 @@ description: 'You were just enjoying watching your favorite VTubers, while sudde
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/OSINT/Details).'
 type: StaticAttachment
 category: OSINT
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - INTECHFEST{JimbaranBayBeachResort&Spa}
 - INTECHFEST{JimbaranBayBeachResortandSpa}

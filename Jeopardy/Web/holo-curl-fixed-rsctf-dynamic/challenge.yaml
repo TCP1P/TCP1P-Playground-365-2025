@@ -1,0 +1,19 @@
+name: Holo Curl [Fixed]
+author: dimas
+description: |-
+  The Holo Agency built a web application that fetches content from other websites. Would you check it for me?
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Holo-Curl%5BFix%5D).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: Hology6{holo_curl_fixed________________________[TEAM_HASH]}
+container:
+  memoryLimit: 256
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false
+  networkMode: Open

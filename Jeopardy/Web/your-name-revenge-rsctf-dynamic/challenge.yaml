@@ -1,0 +1,20 @@
+name: Your Name Revenge
+author: Dimas
+description: |-
+  What is your name :) ?
+
+  The admin report form is available at `/report/` on the same instance endpoint.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/your-name-revenge).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: TCF2023{your_name_revenge___[TEAM_HASH]}
+container:
+  memoryLimit: 768
+  cpuCount: 2
+  exposePort: 8080
+  enableTrafficCapture: false

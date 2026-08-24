@@ -3,7 +3,6 @@ author: 404Gh0st
 description: 'Ancient carvings whispered forgotten rituals as Aaron delved deeper into the ruined temple. Crumbling corridors echoed his footsteps, the air heavy with the weight of ages. Navigating treacherous pitfalls, he reached a flickering torchlit altar. Upon it, a chest, bound by shimmering glyphs - the rumored treasure, locked by an ancient spell. The key lay hidden somewhere within... but where?
 
 
-  Connect: http://{{ .host }}:25194
 
 
   ---
@@ -11,9 +10,9 @@ description: 'Ancient carvings whispered forgotten rituals as Aaron delved deepe
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest).'
 type: StaticAttachment
 category: Blockchain
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCP1P{contract_storage_holds_all_of_your_data}
 provide: dist

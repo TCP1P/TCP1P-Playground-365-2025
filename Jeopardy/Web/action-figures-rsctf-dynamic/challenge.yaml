@@ -1,0 +1,20 @@
+name: Action Figures
+author: 404Gh0st
+description: |-
+  When else will there be action-figure wholesalers? Check our website for affordable prices.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/action-figures).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+hints:
+  - Pastikan debug secara lokal terlebih dahulu
+flagTemplate: TCP1P{action_figures______________________[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 2
+  exposePort: 30032
+  enableTrafficCapture: false

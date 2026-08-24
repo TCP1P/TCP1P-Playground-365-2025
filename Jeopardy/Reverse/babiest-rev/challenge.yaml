@@ -8,9 +8,9 @@ description: 'What is cross-reference anyway?
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Reverse/babiest-rev).'
 type: StaticAttachment
 category: Reverse
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCP1P{g0_w1th_the_fl0w!}
 provide: dist
