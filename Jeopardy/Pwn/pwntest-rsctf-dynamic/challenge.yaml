@@ -3,7 +3,6 @@ author: rui
 description: 'This is pentest style challenge, you have to gain root on docker instead of qemu to get the flag.
 
 
-  **Connection**: `nc {{ .host }} 9006`
 
 
   ---
@@ -11,9 +10,9 @@ description: 'This is pentest style challenge, you have to gain root on docker i
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/PwnTest).'
 type: DynamicContainer
 category: Pwn
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flagTemplate: INTECHFEST{pwntest_______________________________________________________[TEAM_HASH]}
 container:
   memoryLimit: 128

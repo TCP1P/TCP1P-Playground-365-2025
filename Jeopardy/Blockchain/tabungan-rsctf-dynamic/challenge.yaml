@@ -3,7 +3,6 @@ author: Dimas
 description: 'I just build my first smart contract, can you check it? maybe i made little mistke in there T-T
 
 
-  Connect: http://{{ .host }}:11661
 
 
   ---
@@ -11,9 +10,9 @@ description: 'I just build my first smart contract, can you check it? maybe i ma
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/tabungan).'
 type: DynamicContainer
 category: Blockchain
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flagTemplate: TCF2024{tabungan___________________________[TEAM_HASH]}
 container:
   memoryLimit: 256

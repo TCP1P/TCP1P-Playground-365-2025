@@ -1,0 +1,21 @@
+name: Client Side Programming
+author: Dimas
+description: |-
+  Did you know I made an interesting XOR image application with Go and Next.js?
+  I do not know whether it is vulnerable, but I hope you find out before I submit it to NASA.
+
+  The admin report form is available at `/report/` on the same instance endpoint.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Client%20Side%20Programming).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{client_side_programming_____________________________[TEAM_HASH]}
+container:
+  memoryLimit: 1536
+  cpuCount: 3
+  exposePort: 8080
+  enableTrafficCapture: false

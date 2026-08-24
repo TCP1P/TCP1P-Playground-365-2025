@@ -3,7 +3,6 @@ author: rui
 description: 'capek main pyjailnya @nagi mulu tapi gak pernah solve? coba ini bang dijamin payloadnya gak sebrutal pyjail sebelah
 
 
-  **Connection**: `nc {{ .host }} 9007`
 
 
   ---
@@ -11,9 +10,9 @@ description: 'capek main pyjailnya @nagi mulu tapi gak pernah solve? coba ini ba
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/pyjail_wannabe).'
 type: DynamicContainer
 category: Pwn
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 hints:
 - There's unnecessary error handling, you can use that by overwriting it and then it will called
 flagTemplate: INTECHFEST{pyjail_wannabe________________________[TEAM_HASH]}

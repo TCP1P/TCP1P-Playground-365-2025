@@ -1,0 +1,19 @@
+name: Chest
+author: 404Gh0st
+description: 'Ancient carvings whispered forgotten rituals as Aaron delved deeper into the ruined temple. Crumbling corridors echoed his footsteps, the air heavy with the weight of ages. Navigating treacherous pitfalls, he reached a flickering torchlit altar. Upon it, a chest, bound by shimmering glyphs - the rumored treasure, locked by an ancient spell. The key lay hidden somewhere within... but where?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Blockchain/chest).'
+type: DynamicContainer
+category: Blockchain
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: TCP1P{chest__________________[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 2
+  exposePort: 8080
+  enableTrafficCapture: false

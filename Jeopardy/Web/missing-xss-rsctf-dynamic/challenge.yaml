@@ -1,0 +1,20 @@
+name: Missing XSS
+author: Dimas Maulana
+description: |-
+  Is it exploitable?
+
+  The admin report form is available at `/report/` on the same instance endpoint.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/missing_xss).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: TCP1P{missing_xss_____________________[TEAM_HASH]}
+container:
+  memoryLimit: 1024
+  cpuCount: 2
+  exposePort: 8080
+  enableTrafficCapture: false

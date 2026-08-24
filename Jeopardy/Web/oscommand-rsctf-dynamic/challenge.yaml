@@ -1,0 +1,24 @@
+name: oscommand
+author: 53buahapel
+description: 'Flag folder is in / directory. Find a way to get it.
+
+
+  restricted:
+
+  ['';'', ''&'', ''|'', ''||'', ''&&'', ''>'', ''<'', ''('', '')'', ''{'', ''}'', ''['', '']'', ''\\'', ''\'''', ''"'', ''!'', ''*'', ''?'', ''~'', ''#'', ''%'', ''+'', '' '']
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/oscommand).'
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: TCP1P{oscommand_______________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 5000
+  enableTrafficCapture: false

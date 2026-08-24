@@ -8,9 +8,9 @@ description: 'Out of boredom, I accidentally dumped all of my files into this pl
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Forensics/unatached).'
 type: StaticAttachment
 category: Forensics
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCP1P{c4rving_a_nameles5_g1t_obj3ct_ins1de_pdf}
 provide: dist

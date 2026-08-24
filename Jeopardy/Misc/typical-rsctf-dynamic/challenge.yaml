@@ -3,7 +3,6 @@ author: nagi
 description: 'Just your typical, yet mandatory pyjail
 
 
-  **Connection**: `nc {{ .host }} <port>`
 
 
   ---
@@ -11,9 +10,9 @@ description: 'Just your typical, yet mandatory pyjail
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/Typical).'
 type: DynamicContainer
 category: Misc
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 hints:
 - A method based on PEP introduced in Python 3.7 may be utilized to enable function calls without the use of parentheses
 flagTemplate: INTECHFEST{typical_ec743e94_[TEAM_HASH]}

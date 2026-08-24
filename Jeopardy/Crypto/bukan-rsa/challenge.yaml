@@ -44,9 +44,9 @@ description: 'iya ini elgamal, cara solve? nonton ini https://youtu.be/Gp6NUFi9b
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/bukan-rsa).'
 type: StaticAttachment
 category: Crypto
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCF2024{bf4cd965fe1ea5641aac80f630046d5c977c5fa8}
 provide: dist

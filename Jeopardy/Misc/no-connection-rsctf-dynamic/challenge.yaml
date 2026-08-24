@@ -1,0 +1,21 @@
+name: No Connection
+author: Dimas Maulana
+description: |-
+  Can you connect to MongoDB and get the flag?
+
+  Start the instance and use the single TCP endpoint shown by RSCTF.
+
+  ---
+  Historical archive converted for RSCTF practice. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Misc/no-connection).
+type: DynamicContainer
+category: Misc
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{no_connection_[TEAM_HASH]}
+container:
+  memoryLimit: 768
+  cpuCount: 2
+  exposePort: 8080
+  enableTrafficCapture: false
+  networkMode: Open

@@ -10,4 +10,4 @@ WORKDIR /opt
 COPY challenge.py .
 
 
-CMD test -n "$RSCTF_FLAG" && printf '%s\n' "$RSCTF_FLAG" > flag.txt && unset RSCTF_FLAG && exec socat TCP-LISTEN:5000,fork,reuseaddr EXEC:'python3 challenge.py'
+CMD test -n "$RSCTF_FLAG" && printf '%s\n' "$RSCTF_FLAG" > flag.txt && unset RSCTF_FLAG && exec socat TCP-LISTEN:5000,fork,reuseaddr EXEC:'python3 -u challenge.py'

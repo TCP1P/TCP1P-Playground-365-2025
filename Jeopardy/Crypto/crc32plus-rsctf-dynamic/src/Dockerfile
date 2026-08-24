@@ -9,4 +9,4 @@ WORKDIR /opt
 
 COPY server.py .
 
-CMD test -n "$RSCTF_FLAG" && printf '%s\n' "$RSCTF_FLAG" > flag.txt && unset RSCTF_FLAG && exec socat TCP-LISTEN:5000,fork,reuseaddr EXEC:'python3 server.py'
+CMD test -n "$RSCTF_FLAG" && printf '%s\n' "$RSCTF_FLAG" > flag.txt && unset RSCTF_FLAG && exec socat TCP-LISTEN:5000,fork,reuseaddr EXEC:'python3 -u server.py'

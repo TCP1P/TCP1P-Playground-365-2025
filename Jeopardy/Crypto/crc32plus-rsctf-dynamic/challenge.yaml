@@ -11,9 +11,9 @@ description: 'Pure crc32 is weak, that''s why I tweaked it a little bit to make 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Crypto/CRC32plus).'
 type: DynamicContainer
 category: Crypto
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 hints:
 - This implementation (https://github.com/theonlypwner/crc32) might help, but you still need to tweak it for this challenge
 - You need some luck to get the "good" poly. Once you get the "good" poly, you also need another luck and optimization for solving the collision and reversing the crc32plus in a very short time. On average, author's solution takes ~5 mins to bruteforce and finally be able to get the flag.

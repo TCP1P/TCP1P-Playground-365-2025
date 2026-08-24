@@ -6,7 +6,6 @@ description: 'Author malas buat chall pwn, yaudah pake punya orang aja https://g
   Note: OS docker pake ubuntu:jammy (22.04)
 
 
-  Connect: nc {{ .host }} 31337
 
 
   ---
@@ -14,9 +13,9 @@ description: 'Author malas buat chall pwn, yaudah pake punya orang aja https://g
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Pwn/minivm).'
 type: DynamicContainer
 category: Pwn
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flagTemplate: TCF2024{minivm_________________[TEAM_HASH]}
 container:
   memoryLimit: 128

@@ -8,9 +8,9 @@ description: 'It''s even possible to solve this challenge? I don''t think so.
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/Imposible).'
 type: DynamicContainer
 category: Web
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 hints:
 - maybe what you're missing is the fact that golang using goroutine to handle requests
 flagTemplate: INTECHFEST{golang_race_condition_is_hard_to_find_[TEAM_HASH]}

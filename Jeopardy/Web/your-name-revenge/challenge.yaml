@@ -3,7 +3,6 @@ author: Dimas
 description: 'What is your name :) ?
 
 
-  Connection: http://{{ .host }}:38908
 
 
   ---
@@ -11,9 +10,9 @@ description: 'What is your name :) ?
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-365-2025/tree/main/Web/your-name-revenge).'
 type: StaticAttachment
 category: Web
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
+disableBloodBonus: true
 flags:
 - TCF2023{1642071c-ebb8-4b3f-91fa-56abf92cf64c}
 provide: dist
